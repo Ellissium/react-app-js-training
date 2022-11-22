@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    background: teal;
+}
+
+.link {
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background: #017070;
+}
+
+.link:active {
+    background: white;
+    color: teal;
+}
